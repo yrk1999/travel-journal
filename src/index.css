@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    --webkit-font-smoothing: antialiased;
+    --moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #918e9b;
+    text-decoration: underline;
+}
+
+nav {
+    height: 30px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    color: white;
+    background-color: #f55a5a;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -0.075em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nav--logo {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.card {
+    padding: 20px;
+    width: 600px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    box-shadow: 1px;
+}
+
+.card--location-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.card--location {
+    letter-spacing: 0.17rem;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 5px;
+    margin-right: 10px;
+    padding-top: 0;
+}
+
+.card--info {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card--image {
+    max-width: 168px;
+    max-height: 200px;
+    border-radius: 5px;
+}
+
+.card--name {
+    font-size: 25px;
+    flex-basis: 100%;
+}
+
+.card--description {
+    padding-top: 10px;
+}
